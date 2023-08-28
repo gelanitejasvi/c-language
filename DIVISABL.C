@@ -1,0 +1,19 @@
+
+//find out disvisible by 5 or not.
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+   int a;
+   clrscr();
+   printf("enter a:");
+   scanf("%d",&a);
+   if(a%5==0){
+	      printf("disvisible by 5:%d",a);
+	      }
+   else{
+	 printf("undisvisible by 5:%d",a);
+	 }
+  getch();
+}

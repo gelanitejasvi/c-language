@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  float a,b,c;
+  clrscr();
+  printf("enter a,b and c:");
+  scanf("%f%f%f",&a,&b,&c);
+  printf("%f is largest among",((a>b)&&(a>c)?a:(b>c)?b:c));
+  getch();
+}
